@@ -1,0 +1,11 @@
+{
+  "@metadata": {
+		"authors": [
+			"Daniel Beard"
+		]
+  },
+  
+	"acronym-extension-name": "Acronym",
+	"acronym-extension-desc": "A pair of parser functions used to simplify template arguments using standardised acronyms or initialisms."
+
+}

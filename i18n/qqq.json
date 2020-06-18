@@ -1,0 +1,11 @@
+{
+  "@metadata": {
+		"authors": [
+			"Daniel Beard"
+		]
+  },
+  
+	"acronym-extension-name": "{{name}}",
+	"acronym-extension-desc": "{{desc|what=extension|name=Acronym|url=https://www.halopedia.org/Halopedia:Extensions/Acronym}}"
+
+}

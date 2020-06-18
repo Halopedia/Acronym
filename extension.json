@@ -1,0 +1,29 @@
+{
+	"name": "Acronym",
+	"author": "Daniel Beard",
+	"url": "https://www.halopedia.org/Halopedia:Extensions/Acronym",
+	"namemsg": "acronym-extension-name",
+	"descriptionmsg": "acronym-extension-desc",
+	"version": "0.0.1",
+	"license-name": "GPL-2.0-or-later",
+	"type": "parserhook",
+	"manifest_version": 2,
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"MessagesDirs": {
+		"Acronym": [
+			"i18n"
+		]
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\Acronym\\": "includes/"
+  },
+  "Hooks": {
+		"ParserFirstCallInit": "MediaWiki\\Extension\\Acronym\\Hooks::onParserFirstCallInit",
+		"ParserClearState": "MediaWiki\\Extension\\Acronym\\Hooks::onParserClearState"
+	},
+	"ExtensionMessagesFiles": {
+		"AcronymMagic": "Acronym.i18n.php"
+	}
+}
